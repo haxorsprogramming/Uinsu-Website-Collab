@@ -10,4 +10,8 @@ class C_Home extends Controller
     {
         return view('home.home');
     }
+    public function academic()
+    {
+        return view('home.academic');
+    }
 }
