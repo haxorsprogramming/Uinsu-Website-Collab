@@ -37,28 +37,16 @@
                         <div style="margin-top:20px;">
                             <ul>
                                 <li>Manajemen Pendidikan</li>
-                                <li>Pendidikan Matematika</li>
-                                <li>Pendidikan Guru Madrasah Ibtidaiyah</li>
-                                <li>Tadris Ilmu Pengetahuan Sosial</li>
-                                <li>Pendidikan Islam Anak Usia Dini</li>
+                               
                             </ul>
                         </div>
-                        <a href="#" class="course-one__link">See Preview</a><!-- /.course-one__link -->
+                        <a href="#" class="course-one__link">See Details</a><!-- /.course-one__link -->
                     </div><!-- /.course-one__content -->
                 </div><!-- /.course-one__single -->
             </div><!-- /.col-lg-4 -->
             @endforeach
             
-            
         </div><!-- /.row -->
-        <div class="post-pagination">
-            <a href="#"><i class="fa fa-angle-double-left"></i><!-- /.fa fa-angle-double-left --></a>
-            <a class="active" href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#"><i class="fa fa-angle-double-right"></i><!-- /.fa fa-angle-double-left --></a>
-        </div><!-- /.post-pagination -->
 
     </div><!-- /.container -->
 </section><!-- /.course-one course-page -->

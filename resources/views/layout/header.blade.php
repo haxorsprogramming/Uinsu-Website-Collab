@@ -58,7 +58,11 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="main-navigation">
                         <ul class=" navigation-box">
+                            @if($page === 'home')
                             <li class="current">
+                            @else
+                            <li>
+                            @endif
                                 <a href="{{ url('') }}">Home</a>
                             </li>
                             <li>
@@ -77,7 +81,12 @@
                                     <li><a href="course-details.html">Course Details</a></li>
                                 </ul><!-- /.sub-menu -->
                             </li>
+
+                            @if($page === 'academic')
+                            <li class="current">
+                            @else
                             <li>
+                            @endif
                                 <a href="{{ url('/academic') }}">Academic</a>
                             </li>
                             <li>
