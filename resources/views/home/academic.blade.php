@@ -9,10 +9,10 @@
         <h2 class="inner-banner__title">Faculty</h2><!-- /.inner-banner__title -->
     </div><!-- /.container -->
 </section><!-- /.inner-banner -->
+
 <section class="course-one course-page">
     <div class="container">
         <div class="row">
-
 
             @foreach($dataFakultas as $fakultas)
             <div class="col-lg-4">

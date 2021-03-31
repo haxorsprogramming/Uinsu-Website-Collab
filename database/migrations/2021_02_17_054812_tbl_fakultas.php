@@ -18,10 +18,9 @@ class TblFakultas extends Migration
             $table -> char('kd_fakultas', 50);
             $table -> char('nama_fakultas', 200);
             $table -> char('deksripsi_fakultas', 200);
-            $table -> char('slug', 100);
             $table -> char('prefix', 100);
             $table -> char('tingkat', 5);
-            $table -> char('active', 1);
+            $table -> char('active', 1);    
         });
     }
 
