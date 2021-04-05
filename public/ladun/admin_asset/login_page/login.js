@@ -10,7 +10,10 @@ var divLogin = new Vue({
     methods : {
         loginAtc : function()
         {
-            axios.post(rToLogin).then(function(res){
+            let username = document.querySelector('#txtUsername').value;
+            let password = document.querySelector('#txtPassword').value;
+            let ds = {'username':username, 'password':password}
+            axios.post(rToLogin, ds).then(function(res){
                 console.log(res.data);
             });
         }
