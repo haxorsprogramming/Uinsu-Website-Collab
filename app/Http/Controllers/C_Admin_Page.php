@@ -8,6 +8,6 @@ class C_Admin_Page extends Controller
 {
     public function loginpage()
     {
-        echo "Halaman page";
+        return view('admin_panel.login.page_login');
     }
 }

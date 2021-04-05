@@ -9,6 +9,6 @@ Route::get('/', [C_Home::class, 'home']);
 Route::get('/academic', [C_Home::class, 'academic']);
 
 /**
- * Admin Stack
+ * Admin Panel
  */
 Route::get('/manage', [C_Admin_Page::class, 'loginpage']);
