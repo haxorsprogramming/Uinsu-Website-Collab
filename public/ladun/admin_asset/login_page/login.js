@@ -1,5 +1,6 @@
 // route 
 const rToLogin = server + 'manage/login/proses';
+const rToDashboard = server + 'manage/dashboard';
 
 // vue object 
 var divLogin = new Vue({
@@ -14,7 +15,14 @@ var divLogin = new Vue({
             let password = document.querySelector('#txtPassword').value;
             let ds = {'username':username, 'password':password}
             axios.post(rToLogin, ds).then(function(res){
-                console.log(res.data);
+               let dr = res.data;
+               if(dr.status === 'no_user'){
+                pesanUmumApp('warning', 'Gagal', 'Username tidak terdaftar !!!');
+               }else if(dr.status === 'wrong_password'){
+                pesanUmumApp('warning', 'Gagal', 'Autentifikasi gagal, periksa username / password !!!');
+               }else{
+                window.location.assign(rToDashboard);
+               }
             });
         }
     }
@@ -28,3 +36,12 @@ $.ajaxSetup({
 });
 
 document.querySelector('#txtUsername').focus();
+
+function pesanUmumApp(icon, title, text)
+{
+  Swal.fire({
+    icon : icon,
+    title : title,
+    text : text
+  });
+}

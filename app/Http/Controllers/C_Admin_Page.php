@@ -10,4 +10,9 @@ class C_Admin_Page extends Controller
     {
         return view('admin_panel.login.page_login');
     }
+
+    public function dashboard()
+    {
+        return view('admin_panel.dashboard.page_dashboard');
+    }
 }
