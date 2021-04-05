@@ -1,3 +1,6 @@
+// route 
+const rToLogin = server + 'manage/login/proses';
+
 // vue object 
 var divLogin = new Vue({
     el : '#divLogin',
@@ -7,7 +10,9 @@ var divLogin = new Vue({
     methods : {
         loginAtc : function()
         {
-            console.log("Halo");
+            axios.post(rToLogin).then(function(res){
+                console.log(res.data);
+            });
         }
     }
 });

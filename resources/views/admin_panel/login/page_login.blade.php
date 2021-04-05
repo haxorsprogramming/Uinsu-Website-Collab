@@ -13,7 +13,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <!-- Favicon -->
     
-
     <title>Uinsu Website Administrator</title>
 
     <!-- vendor css -->
@@ -119,7 +118,9 @@
     <script src="{{ asset('ladun/forge_template/lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('ladun/forge_template/lib/feather-icons/feather.min.js') }}"></script>
     <script src="{{ asset('ladun/forge_template/lib/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://s3-id-jkt-1.kilatstorage.id/ebunga/ebunga-cdn/js-lib/axios/axios.min.js"></script>
 
     <script src="{{ asset('ladun/forge_template/assets/js/dashforge.js') }}"></script>
     <script>

@@ -13,4 +13,4 @@ Route::get('/academic', [C_Home::class, 'academic']);
  * Admin Panel
  */
 Route::get('/manage', [C_Admin_Page::class, 'loginpage']); # login admin page
-Route::post('/manage/login/proses', [C_Login_Admin::class, 'proses_login']);
+Route::post('/manage/login/proses', [C_Login_Admin::class, 'proses_login']); # proses login

@@ -8,6 +8,7 @@ class C_Login_Admin extends Controller
 {
     public function proses_login()
     {
-        
+        $dr = ['status' => 'wrongPassword'];
+        return \Response::json($dr);
     }
 }
