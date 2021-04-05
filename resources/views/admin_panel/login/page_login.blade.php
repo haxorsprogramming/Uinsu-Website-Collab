@@ -10,7 +10,7 @@
     <!-- Meta -->
     <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
     <meta name="author" content="ThemePixels">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <!-- Favicon -->
     
 

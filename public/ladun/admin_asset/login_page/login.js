@@ -12,5 +12,11 @@ var divLogin = new Vue({
     }
 });
 
-// inisialisasi 
+// inisialisasi
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+});
+
 document.querySelector('#txtUsername').focus();
