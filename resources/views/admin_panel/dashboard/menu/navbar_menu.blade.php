@@ -10,13 +10,10 @@
         </ul>
     </li>
     <li class="nav-item with-sub">
-        <a href="" class="nav-link"><i data-feather="package"></i> Apps</a>
+        <a href="" class="nav-link"><i data-feather="package"></i> Akademik</a>
         <ul class="navbar-menu-sub">
-            <li class="nav-sub-item"><a href="app-calendar.html" class="nav-sub-link"><i data-feather="calendar"></i>Calendar</a></li>
-            <li class="nav-sub-item"><a href="app-chat.html" class="nav-sub-link"><i data-feather="message-square"></i>Chat</a></li>
-            <li class="nav-sub-item"><a href="app-contacts.html" class="nav-sub-link"><i data-feather="users"></i>Contacts</a></li>
-            <li class="nav-sub-item"><a href="app-file-manager.html" class="nav-sub-link"><i data-feather="file-text"></i>File Manager</a></li>
-            <li class="nav-sub-item"><a href="app-mail.html" class="nav-sub-link"><i data-feather="mail"></i>Mail</a></li>
+            <li class="nav-sub-item"><a href="#!" class="nav-sub-link"><i data-feather="calendar"></i>Fakultas</a></li>
+            <li class="nav-sub-item"><a href="#!" class="nav-sub-link"><i data-feather="message-square"></i>Program Studi</a></li>
         </ul>
     </li>
     <li class="nav-item with-sub">
