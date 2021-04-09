@@ -34,7 +34,8 @@
     <script>
         const server = "{{ url('/') }}/";
     </script>
-    
+    <script src="{{ asset('ladun/admin_asset/dashboard/dashboard.js') }}"></script>
+
 </body>
 
 </html>
