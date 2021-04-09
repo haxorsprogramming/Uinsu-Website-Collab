@@ -31,6 +31,8 @@
 <script src="{{ asset('ladun/forge_template/lib/js-cookie/js.cookie.js') }}"></script>
 <script src="{{ asset('ladun/forge_template/assets/js/dashforge.settings.js') }}"></script>
 
+<script src='https://unpkg.com/nprogress@0.2.0/nprogress.js'></script>
+
 <script>
     const server = "{{ url('/') }}/";
 </script>
