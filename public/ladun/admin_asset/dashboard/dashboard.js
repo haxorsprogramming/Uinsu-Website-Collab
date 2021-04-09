@@ -10,3 +10,5 @@ var divNavbarMenu = new Vue({
         }
     }
 });
+
+$('#divUtama').html("Isi");
