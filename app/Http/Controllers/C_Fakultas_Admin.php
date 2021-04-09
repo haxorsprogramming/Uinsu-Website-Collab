@@ -8,6 +8,6 @@ class C_Fakultas_Admin extends Controller
 {
     public function list()
     {
-        echo "all";
+        return view('admin_panel.dashboard.fakultas.list');
     }
 }
